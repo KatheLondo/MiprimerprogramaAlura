@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+<h4>LOTERIA</h4>
+
+	<script>
+		function saltarLinea() {
+	    document.write("<br><br><br>");
+		}
+
+		function imprimir(frase) {
+			document.write(frase);
+			saltarLinea();
+		}
+
+		function sortea(n){
+			return Math.round(Math.random()*n);
+		}
+		
+//formula para poner un numero aleatorio entre 0 y 10
+	var numeroPensado = sortea(20)
+	
+	var numeroLanzado = parseInt(prompt("Ingrese un numero"));
+
+	if (numeroPensado == numeroLanzado){
+		imprimir ("usted acertó")
+	}
+
+	else{
+		imprimir("usted erró")
+		if (numeroPensado > numeroLanzado){
+			imprimir ("El numero era mayor");
+		}else{
+			imprimir ("El numero era menor");
+		}
+	}
+
+	</script>

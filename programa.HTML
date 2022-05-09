@@ -1,0 +1,198 @@
+<meta charset="UTF-8">
+
+
+
+<script>
+	alert("La edad de Cristian es...")
+	alert("?")
+
+	document.write("La edad de Cristian es...")
+	document.write("<br>")
+	document.write("?")
+	document.write("<br>")
+	document.write(25+8)
+	document.write("<br>")
+
+
+	document.write("2020-29")
+	document.write("<br>")
+	document.write(2020-29)
+	document.write("<br>")
+	document.write("El promedio de Juan, Pedro y Carlos es...")
+	document.write("<br>")
+	document.write((20+25+15)/3)
+
+
+	document.write("<br>")
+	document.write("El promedio de edad de Juan, Pedro y Carlos es" +20+25+15);
+	document.write("<br>")
+	document.write("La suma de law edades de Juan, Pedro y Carlos es" +(20+25+15));
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Juan nacio en el año...");
+	document.write("<br>")
+	document.write(2022-20);
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Pedro nacio en el año...");
+	document.write("<br>")
+	document.write(2022-25);
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Carlos nacio en el año...");
+	document.write("<br>")
+	document.write(2022-15);
+	document.write("<br>")
+	document.write("<br>")
+	document.write(12 + " años");
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Mi edad es "+ 12);
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Media calculada " + 20);
+	document.write("<br>")
+	document.write("<br>")
+	document.write(10 + 20);
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Juan tiene:" + (2022-2000)+ "años");
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Pedro tiene:" + (2022-1995)+ "años");
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Carlos tiene:" + (2022-2005)+ "años");
+	document.write("<br>")
+	document.write("<br>")
+
+
+</script>
+
+<script charset="UTF-8" >
+	var anho = 2020;
+
+	document.write("Juan tiene:" + (anho-2000)+ "años");
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Pedro tiene:" + (anho-1995)+ "años");
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Carlos tiene:" + (anho-2005)+ "años");
+	document.write("<br>")
+	document.write("<br>")
+
+
+</script>
+
+<script charset="UTF-8" >
+	var anho = 2022;
+
+	document.write("Juan tiene:" + (anho-2000)+ "años");
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Pedro tiene:" + (anho-1995)+ "años");
+	document.write("<br>")
+	document.write("<br>")
+
+	anho = 2032;
+	document.write("Carlos tiene:" + (anho-2005)+ "años");
+	document.write("<br>")
+	document.write("<br>")
+
+
+</script>
+
+<script charset="UTF-8" >
+	var anho = 2020;
+
+	document.write("Jimena tiene:" + (anho-2010)+ "años");
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Paola tiene:" + (anho-1995)+ "años");
+	document.write("<br>")
+	document.write("<br>")
+	document.write("Laura tiene:" + (anho-2005)+ "años");
+	document.write("<br>")
+	document.write("<br>")
+	document.write("El promedio de las edades de las tres mujeres es:" + ((10+25+15)/3));
+	document.write("<br>")
+	document.write("<br>")
+
+
+</script>
+
+<script>
+	var anho = 2020;
+	var saltoLinea = "<br><br><br>"
+
+	document.write("Juan tiene:" + (anho-2000)+ "años");
+	document.write(saltoLinea)
+	document.write("Pedro tiene:" + (anho-1995)+ "años");
+	document.write(saltoLinea)
+	document.write("Carlos tiene:" + (anho-2005)+ "años");
+	document.write(saltoLinea)
+
+
+</script>
+<script>
+
+	function saltarlinea() {
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	var anho = 2020;
+
+	document.write("Juan tiene:" + (anho-2000)+ "años");
+	saltarlinea();
+	document.write("Pedro tiene:" + (anho-1995)+ "años");
+	saltarlinea();
+	document.write("Carlos tiene:" + (anho-2005)+ "años");
+	saltarlinea();
+
+
+</script>
+
+<script>
+	document.write("<h5>funcion dentro de funcion<h5>")
+
+	function saltarlinea() {
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+	}
+//una funcion llamando a otra funcion, cuando utilice imprimir automáticamente va a saltar linea
+	function imprimir(frase) {
+		document.write(frase)
+		saltarlinea();
+	}
+	var anho = 2020;
+
+	imprimir("Juan tiene:" + (anho-2000)+ "años");
+	imprimir("Pedro tiene:" + (anho-1995)+ "años");
+	imprimir("Carlos tiene:" + (anho-2005)+ "años");
+
+
+</script>
+
+<meta charset="UTF-8">
+<h3>Sumar numeros </h3>
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    function sumarDosNumeros(numero1, numero2) {
+        imprimir("La suma de los dos números es : " + (numero1 + numero2) );
+    }
+
+    sumarDosNumeros(10, 40);
+</script>
